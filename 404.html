@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Page moved | Donny Michel</title>
+<script>
+  // Old photography pages used to live on donnymichel.com.
+  // Send any unknown path to the same path on the photography site.
+  (function () {
+    var p = location.pathname + location.search + location.hash;
+    if (location.hostname.replace(/^www\./, '') === 'donnymichel.com' && p !== '/' && p !== '/404.html') {
+      location.replace('https://donnymichelphotography.com' + p);
+    }
+  })();
+</script>
+<style>
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#F6F4EF;color:#121211;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;padding:24px;box-sizing:border-box}
+  main{max-width:520px}
+  h1{font-family:Georgia,serif;font-weight:400;font-size:40px;line-height:1.1;margin:0 0 16px}
+  p{font-size:16px;line-height:1.55;color:#4a4742;margin:0 0 12px}
+  a{color:#121211;font-weight:500}
+</style>
+</head>
+<body>
+<main>
+<h1>This page has moved.</h1>
+<p>Looking for photography? It now lives at <a href="https://donnymichelphotography.com">donnymichelphotography.com</a>.</p>
+<p>Or head back to <a href="https://donnymichel.com/">Donny Michel’s portfolio</a>.</p>
+</main>
+</body>
+</html>
